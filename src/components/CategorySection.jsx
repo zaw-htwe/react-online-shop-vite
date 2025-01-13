@@ -1,5 +1,6 @@
 import React from "react";
 import CategoryButton from "./CategoryButton";
+import Container from "./Container";
 
 const CategorySection = () => {
   const title = "Products Categories";
@@ -12,6 +13,7 @@ const CategorySection = () => {
   ];
   return (
     <section id="category-section" className="p-5">
+      <Container>
       <p className="text-md  text-gray-600 mb-2 ">{title}</p>
         <div className="flex overflow-scroll category-button">
         <CategoryButton categoryName="all" current= "true"/>
@@ -27,6 +29,7 @@ const CategorySection = () => {
             />
           ))}
         </div>
+      </Container>
     </section>
   );
 };

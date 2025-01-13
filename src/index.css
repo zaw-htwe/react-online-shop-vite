@@ -10,8 +10,7 @@
     -ms-overflow-style: none; /* For Internet Explorer and Edge */
   }
   
-  /* Hide scrollbar for WebKit browsers */
+  /* Hide scrollbar for WebKit browsers */                                      
 .category-button::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, and Opera */
+    display: none; /* Chrome, Safari, and Opera */                                              
   }
-  
